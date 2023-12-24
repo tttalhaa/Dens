@@ -1,6 +1,6 @@
 {
-	"name": "luci chat bot ",
-	"description": "Lucifer için mesaj Botu.",
+	"name": "block ",
+	"description": "Lucifer için Botu.",
 	"repository": "https://github.com/tttalhaa/Mesaj",
 	"env": {
 		"BOT_TOKEN": {
