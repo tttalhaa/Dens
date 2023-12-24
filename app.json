@@ -1,0 +1,21 @@
+{
+	"name": "luci chat bot ",
+	"description": "Lucifer için mesaj Botu.",
+	"repository": "https://github.com/tttalhaa/Mesaj",
+	"env": {
+		"BOT_TOKEN": {
+			"description": "@BotFather dan alabiliceğiniz bot token."
+		},
+    	"API_ID": {
+      		"description": "API_ID'niz https://my.telegram.org/apps dan ala bilirsiniz"
+    	},
+    	"API_HASH": {
+   			"description": "API_HASH'iniz https://my.telegram.org/apps dan ala bilirsiniz"
+   		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
